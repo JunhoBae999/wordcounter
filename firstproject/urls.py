@@ -4,7 +4,7 @@ import wordcount.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',wordcount.views.home,name="home"),
+    path('',wordcount.views.home,name="index"),
     path('about/',wordcount.views.about,name="about"),
     path('result/', wordcount.views.result,name='result')
 ]
